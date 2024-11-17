@@ -44,3 +44,16 @@ Accepting b2 changes
 - After
 - - Main, b2 branch changes
 - - Head -> b1, b2
+
+Learning-4
+
+git cherry-pick is similar to git rebase but differ in a way that rebase basically takes in all the commits from the source branch and applies them on top of the current branch's commit
+while cherr-pick just takes in the commit that we want to apply on top of our branch's commit.
+
+Learning-5
+
+git clean -f - To clean all untracked files in current directory
+
+git clean -fd - To clean all untracked files and directories
+
+git clean -n - Dry run of clean to see which files and directories will be cleaned
